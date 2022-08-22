@@ -110,7 +110,7 @@
 *                           chanage api crc32() -> rtk_crc32()
 *                           chanage api crc24q() -> rtk_crc24q()
 *-----------------------------------------------------------------------------*/
-#define _POSIX_C_SOURCE 199309
+#define _POSIX_C_SOURCE 200112L
 #include <stdarg.h>
 #include <ctype.h>
 #ifndef WIN32
@@ -2997,7 +2997,7 @@ extern int expath(const char *path, char *paths[], int nmax)
         }
     }
     for (i=0;i<n;i++) trace(3,"expath  : file=%s\n",paths[i]);
-    
+
     return n;
 }
 /* create directory ------------------------------------------------------------

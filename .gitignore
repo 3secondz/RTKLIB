@@ -6,3 +6,6 @@ Release
 Release_Build
 Debug_Build
 __history
+rtklib.egg-info
+dist
+build
